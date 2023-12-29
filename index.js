@@ -140,20 +140,58 @@
 // const result = isPalindrome(palindromeString);
 
 // console.log(result); // Output: true
-function calculateSum(n) {
-  let sum = 0;
-  for (let i = 0; i <= n; i++) {
-    sum += i;
-  }
-}
+// function calculateSum(n) {
+//   let sum = 0;
+//   for (let i = 0; i <= n; i++) {
+//     sum += i;
+//   }
+// }
 
-const currentDate = new Date();
-const beforeTime = currentDate.getTime();
+// const currentDate = new Date();
+// const beforeTime = currentDate.getTime();
 
-calculateSum(100000000000000000);
+// calculateSum(100000000000000000);
 
-const afterTime = new Date().getTime();
-console.log(afterTime - beforeTime);
+// const afterTime = new Date().getTime();
+// console.log(afterTime - beforeTime);
 
+// class todo{
+//   constructor(){
+//     this.todos = [];
+//   }
+//   add(list){
+//     todos.push(list);
+//   }
+//   removetodo(index){
+//     this.todos.splice(indexOfTodo, 1);
+//   }
+//   update(index, newTodo){
+//     todos[index] = newTodo;
+//   }
+//   getall(){
+//     return this.todos;
+//   }
+//   get(indexoftodo){
+//     return this.todos[indexoftodo];
+//   }
+//   clear(){
+//     this.todos = [];
+//   }
+// }
+
+// const todoList = new Todo();
+
+// todoList.add("Buy groceries");
+// todoList.add("Read a book");
+// console.log("All Todos:", todoList.getAll());
+
+// todoList.update(1, "Read two books");
+// console.log("Updated Todo at index 1:", todoList.get(1));
+
+// todoList.remove(0);
+// console.log("All Todos after removal:", todoList.getAll());
+
+// todoList.clear();
+// console.log("All Todos after clearing:", todoList.getAll());
 
 
